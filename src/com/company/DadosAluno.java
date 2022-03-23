@@ -17,6 +17,7 @@ public class DadosAluno {
         float segundaNota = scanner.nextFloat();
         System.out.println("Quantidade de faltas: ");
         int faltas = scanner.nextInt();
+        float media = (primeiraNota + segundaNota) / 2;
 
 
 
@@ -24,7 +25,6 @@ public class DadosAluno {
         System.out.println("Curso: "+curso);
         System.out.println("Periodo: "+periodo);
         System.out.println("Quantidade de faltas: "+faltas);
-        float media = (primeiraNota + segundaNota) / 2;
         System.out.println("Média do aluno: "+media);
 
 
